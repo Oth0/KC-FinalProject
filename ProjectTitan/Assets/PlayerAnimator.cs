@@ -22,5 +22,10 @@ public class PlayerAnimator : MonoBehaviour
         {
             anim.SetTrigger("Jump");
         }
+         if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            anim.SetTrigger("Attack");
+        }
+
     }
 }
