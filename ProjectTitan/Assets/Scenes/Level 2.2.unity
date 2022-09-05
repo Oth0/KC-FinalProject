@@ -301,7 +301,7 @@ GameObject:
   m_Component:
   - component: {fileID: 31364927}
   - component: {fileID: 31364928}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1540,7 +1540,7 @@ GameObject:
   m_Component:
   - component: {fileID: 105647197}
   - component: {fileID: 105647198}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1960,7 +1960,7 @@ GameObject:
   m_Component:
   - component: {fileID: 137290188}
   - component: {fileID: 137290189}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_87
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2380,7 +2380,7 @@ GameObject:
   m_Component:
   - component: {fileID: 155501318}
   - component: {fileID: 155501317}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Platforms (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2695,7 +2695,7 @@ GameObject:
   m_Component:
   - component: {fileID: 167114216}
   - component: {fileID: 167114217}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2863,7 +2863,7 @@ GameObject:
   m_Component:
   - component: {fileID: 171610093}
   - component: {fileID: 171610092}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Platforms (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2904,7 +2904,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 171610091}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 141.04001, y: -5.7399974, z: 6.1069303}
+  m_LocalPosition: {x: 140.74, y: -5.52, z: 6.1069303}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2927,7 +2927,7 @@ GameObject:
   m_Component:
   - component: {fileID: 176792005}
   - component: {fileID: 176792006}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3374,7 +3374,7 @@ GameObject:
   m_Component:
   - component: {fileID: 203167460}
   - component: {fileID: 203167459}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Platforms (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4230,7 +4230,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 284045200}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 108.9, y: 2.4, z: 6.1069303}
+  m_LocalPosition: {x: 108.45, y: 2.4, z: 6.1069303}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4252,7 +4252,7 @@ GameObject:
   m_Component:
   - component: {fileID: 299208029}
   - component: {fileID: 299208030}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4336,7 +4336,7 @@ GameObject:
   m_Component:
   - component: {fileID: 312749686}
   - component: {fileID: 312749687}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4567,7 +4567,7 @@ GameObject:
   m_Component:
   - component: {fileID: 354261014}
   - component: {fileID: 354261015}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_88
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4977,6 +4977,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &406540480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 406540481}
+  m_Layer: 0
+  m_Name: GroundPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &406540481
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 406540480}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.96, y: -0.54, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2038351537}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &408669138
 GameObject:
   m_ObjectHideFlags: 0
@@ -5071,7 +5102,7 @@ GameObject:
   m_Component:
   - component: {fileID: 422825809}
   - component: {fileID: 422825810}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_88
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5239,7 +5270,7 @@ GameObject:
   m_Component:
   - component: {fileID: 429933429}
   - component: {fileID: 429933428}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Platforms (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5302,7 +5333,7 @@ GameObject:
   m_Component:
   - component: {fileID: 431652085}
   - component: {fileID: 431652086}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5386,7 +5417,7 @@ GameObject:
   m_Component:
   - component: {fileID: 431886341}
   - component: {fileID: 431886342}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_87
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5722,7 +5753,7 @@ GameObject:
   m_Component:
   - component: {fileID: 441658472}
   - component: {fileID: 441658471}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Platforms (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5869,7 +5900,7 @@ GameObject:
   m_Component:
   - component: {fileID: 445458464}
   - component: {fileID: 445458465}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6078,7 +6109,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 478988734}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 97, y: 2.4, z: 6.1069303}
+  m_LocalPosition: {x: 96.78, y: 2.4, z: 6.1069303}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6100,7 +6131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 483424669}
   - component: {fileID: 483424670}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6352,7 +6383,7 @@ GameObject:
   m_Component:
   - component: {fileID: 502763815}
   - component: {fileID: 502763816}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6585,7 +6616,7 @@ GameObject:
   m_Component:
   - component: {fileID: 508452766}
   - component: {fileID: 508452765}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Platforms (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6732,7 +6763,7 @@ GameObject:
   m_Component:
   - component: {fileID: 521917326}
   - component: {fileID: 521917327}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6816,7 +6847,7 @@ GameObject:
   m_Component:
   - component: {fileID: 524015091}
   - component: {fileID: 524015092}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_87
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7257,7 +7288,7 @@ GameObject:
   m_Component:
   - component: {fileID: 576098361}
   - component: {fileID: 576098362}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_88
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7509,7 +7540,7 @@ GameObject:
   m_Component:
   - component: {fileID: 588190020}
   - component: {fileID: 588190021}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7656,7 +7687,7 @@ GameObject:
   m_Component:
   - component: {fileID: 599300854}
   - component: {fileID: 599300855}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7740,7 +7771,7 @@ GameObject:
   m_Component:
   - component: {fileID: 602519439}
   - component: {fileID: 602519440}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_88
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7824,7 +7855,7 @@ GameObject:
   m_Component:
   - component: {fileID: 606245495}
   - component: {fileID: 606245496}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8223,7 +8254,7 @@ GameObject:
   m_Component:
   - component: {fileID: 641250604}
   - component: {fileID: 641250605}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_88
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8307,7 +8338,7 @@ GameObject:
   m_Component:
   - component: {fileID: 644165645}
   - component: {fileID: 644165646}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8391,7 +8422,7 @@ GameObject:
   m_Component:
   - component: {fileID: 646228437}
   - component: {fileID: 646228436}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Platforms (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8538,7 +8569,7 @@ GameObject:
   m_Component:
   - component: {fileID: 647884932}
   - component: {fileID: 647884933}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8622,7 +8653,7 @@ GameObject:
   m_Component:
   - component: {fileID: 650111079}
   - component: {fileID: 650111080}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_88
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8790,7 +8821,7 @@ GameObject:
   m_Component:
   - component: {fileID: 678041427}
   - component: {fileID: 678041428}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_88
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8945,7 +8976,7 @@ GameObject:
   m_Component:
   - component: {fileID: 682788723}
   - component: {fileID: 682788724}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9533,7 +9564,7 @@ GameObject:
   m_Component:
   - component: {fileID: 729923193}
   - component: {fileID: 729923194}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9617,7 +9648,7 @@ GameObject:
   m_Component:
   - component: {fileID: 730109516}
   - component: {fileID: 730109517}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9764,7 +9795,7 @@ GameObject:
   m_Component:
   - component: {fileID: 738627191}
   - component: {fileID: 738627192}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_87
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10166,7 +10197,7 @@ GameObject:
   m_Component:
   - component: {fileID: 769629717}
   - component: {fileID: 769629718}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10502,7 +10533,7 @@ GameObject:
   m_Component:
   - component: {fileID: 781606990}
   - component: {fileID: 781606991}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10754,7 +10785,7 @@ GameObject:
   m_Component:
   - component: {fileID: 790745577}
   - component: {fileID: 790745576}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Platforms (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11325,7 +11356,7 @@ GameObject:
   m_Component:
   - component: {fileID: 831133483}
   - component: {fileID: 831133484}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_88
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11493,7 +11524,7 @@ GameObject:
   m_Component:
   - component: {fileID: 838882656}
   - component: {fileID: 838882657}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_88
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11745,7 +11776,7 @@ GameObject:
   m_Component:
   - component: {fileID: 843783279}
   - component: {fileID: 843783280}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12081,7 +12112,7 @@ GameObject:
   m_Component:
   - component: {fileID: 861940433}
   - component: {fileID: 861940434}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13257,7 +13288,7 @@ GameObject:
   m_Component:
   - component: {fileID: 950609381}
   - component: {fileID: 950609382}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13341,7 +13372,7 @@ GameObject:
   m_Component:
   - component: {fileID: 951022987}
   - component: {fileID: 951022988}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13868,7 +13899,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1012478868}
   - component: {fileID: 1012478867}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Platforms (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13931,7 +13962,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1014217647}
   - component: {fileID: 1014217648}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_87
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14099,7 +14130,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1030416303}
   - component: {fileID: 1030416304}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14520,7 +14551,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1105712795}
   - component: {fileID: 1105712794}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Platforms (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14561,7 +14592,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1105712793}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 129.24, y: -5.71, z: 6.1069303}
+  m_LocalPosition: {x: 128.87, y: -5.56, z: 6.1069303}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -14667,7 +14698,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1119685057}
   - component: {fileID: 1119685056}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Platforms (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14730,7 +14761,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1122172265}
   - component: {fileID: 1122172266}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14898,7 +14929,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1125285375}
   - component: {fileID: 1125285376}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15045,7 +15076,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1135819038}
   - component: {fileID: 1135819039}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15276,7 +15307,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1155586974}
   - component: {fileID: 1155586975}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15360,7 +15391,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1156676826}
   - component: {fileID: 1156676827}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_87
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16022,6 +16053,193 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1221361436
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1221361443}
+  - component: {fileID: 1221361442}
+  - component: {fileID: 1221361441}
+  - component: {fileID: 1221361440}
+  - component: {fileID: 1221361439}
+  - component: {fileID: 1221361438}
+  - component: {fileID: 1221361437}
+  m_Layer: 0
+  m_Name: Gremlin 1 (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &1221361437
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221361436}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0071122795, y: 0.049783945}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.14, y: 1.33}
+    newSize: {x: 1.14, y: 1.33}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.95508826, y: 1.230432}
+  m_EdgeRadius: 0
+--- !u!50 &1221361438
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221361436}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &1221361439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221361436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11f69181f89d3134d88691693f60f76f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groundPos: {fileID: 2027171496}
+  speed: -20
+  rad: 0.3
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 8
+--- !u!114 &1221361440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221361436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e06432f0d610bd84a8f2e492b123c05b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &1221361441
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221361436}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1dcb6b8537ca86e43b6d63d1d58fb6cb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!212 &1221361442
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221361436}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 4abacb3866ccd0d4eaae1ee69d2624b0, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.14, y: 1.33}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1221361443
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221361436}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 55.5, y: 18.9, z: 0}
+  m_LocalScale: {x: -5.6972, y: 5.6972, z: 1.4243}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2027171496}
+  m_Father: {fileID: 0}
+  m_RootOrder: 48
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1226713176
 GameObject:
   m_ObjectHideFlags: 0
@@ -16032,7 +16250,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1226713177}
   - component: {fileID: 1226713178}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_87
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16788,7 +17006,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1294213501}
   - component: {fileID: 1294213502}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17208,7 +17426,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1364689671}
   - component: {fileID: 1364689672}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_88
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17460,7 +17678,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1373897447}
   - component: {fileID: 1373897448}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_87 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17628,7 +17846,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1380330882}
   - component: {fileID: 1380330883}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18216,7 +18434,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1464000371}
   - component: {fileID: 1464000372}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18468,7 +18686,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1481047346}
   - component: {fileID: 1481047347}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18626,6 +18844,193 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1487353275
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1487353282}
+  - component: {fileID: 1487353281}
+  - component: {fileID: 1487353280}
+  - component: {fileID: 1487353279}
+  - component: {fileID: 1487353278}
+  - component: {fileID: 1487353277}
+  - component: {fileID: 1487353276}
+  m_Layer: 0
+  m_Name: Gremlin 1 (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &1487353276
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487353275}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0071122795, y: 0.049783945}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.14, y: 1.33}
+    newSize: {x: 1.14, y: 1.33}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.95508826, y: 1.230432}
+  m_EdgeRadius: 0
+--- !u!50 &1487353277
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487353275}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &1487353278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487353275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11f69181f89d3134d88691693f60f76f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groundPos: {fileID: 1723530276}
+  speed: -20
+  rad: 0.3
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 8
+--- !u!114 &1487353279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487353275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e06432f0d610bd84a8f2e492b123c05b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &1487353280
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487353275}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1dcb6b8537ca86e43b6d63d1d58fb6cb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!212 &1487353281
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487353275}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 4abacb3866ccd0d4eaae1ee69d2624b0, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.14, y: 1.33}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1487353282
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487353275}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 119.1, y: -6, z: 0}
+  m_LocalScale: {x: -4, y: 4, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1723530276}
+  m_Father: {fileID: 0}
+  m_RootOrder: 49
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1487902653
 GameObject:
   m_ObjectHideFlags: 0
@@ -18720,7 +19125,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1490798124}
   - component: {fileID: 1490798125}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_88
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19371,7 +19776,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1531495706}
   - component: {fileID: 1531495707}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19539,7 +19944,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1555235068}
   - component: {fileID: 1555235067}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Platforms (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20022,7 +20427,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1619309127}
   - component: {fileID: 1619309128}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_87
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20106,7 +20511,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1621972823}
   - component: {fileID: 1621972824}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_87
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20442,7 +20847,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1653950581}
   - component: {fileID: 1653950582}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20526,7 +20931,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1656517189}
   - component: {fileID: 1656517190}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20694,7 +21099,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1658568955}
   - component: {fileID: 1658568956}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20946,7 +21351,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1669782753}
   - component: {fileID: 1669782752}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Platforms (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21009,7 +21414,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1678171556}
   - component: {fileID: 1678171557}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21513,7 +21918,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1703012859}
   - component: {fileID: 1703012860}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21889,7 +22294,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1716388074}
   - component: {fileID: 1716388075}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21973,7 +22378,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1718695273}
   - component: {fileID: 1718695274}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22047,6 +22452,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1723530275
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1723530276}
+  m_Layer: 0
+  m_Name: GroundPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1723530276
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1723530275}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.96, y: -0.54, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1487353282}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1724417104
 GameObject:
   m_ObjectHideFlags: 0
@@ -22141,7 +22577,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1725733213}
   - component: {fileID: 1725733214}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_88
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22561,7 +22997,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1758329891}
   - component: {fileID: 1758329892}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_87
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22729,7 +23165,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1767903874}
   - component: {fileID: 1767903875}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23488,7 +23924,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1845212500}
   - component: {fileID: 1845212501}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_88
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23740,7 +24176,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1869506506}
   - component: {fileID: 1869506507}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_87
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23908,7 +24344,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1896264904}
   - component: {fileID: 1896264905}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_87
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23992,7 +24428,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1908299377}
   - component: {fileID: 1908299376}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Platforms (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24391,7 +24827,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1935885024}
   - component: {fileID: 1935885025}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24559,7 +24995,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1953189374}
   - component: {fileID: 1953189375}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_87
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24643,7 +25079,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1960577703}
   - component: {fileID: 1960577704}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_87
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24811,7 +25247,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1963334508}
   - component: {fileID: 1963334509}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25028,7 +25464,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1969520508}
   - component: {fileID: 1969520509}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25196,7 +25632,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1978980238}
   - component: {fileID: 1978980237}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Platforms (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25431,6 +25867,7 @@ GameObject:
   - component: {fileID: 2005553572}
   - component: {fileID: 2005553571}
   - component: {fileID: 2005553569}
+  - component: {fileID: 2005553573}
   m_Layer: 0
   m_Name: Main Camera (1)
   m_TagString: MainCamera
@@ -25531,6 +25968,14 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!81 &2005553573
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005553568}
+  m_Enabled: 1
 --- !u!1 &2011424608
 GameObject:
   m_ObjectHideFlags: 0
@@ -25709,7 +26154,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2018214263}
   - component: {fileID: 2018214264}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25815,6 +26260,37 @@ Transform:
   - {fileID: 1704006984}
   m_Father: {fileID: 0}
   m_RootOrder: 32
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2027171495
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2027171496}
+  m_Layer: 0
+  m_Name: GroundPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2027171496
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027171495}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.96, y: -0.54, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1221361443}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2027570664
 GameObject:
@@ -26138,6 +26614,193 @@ Transform:
   - {fileID: 943534947}
   m_Father: {fileID: 0}
   m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2038351530
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2038351537}
+  - component: {fileID: 2038351536}
+  - component: {fileID: 2038351535}
+  - component: {fileID: 2038351534}
+  - component: {fileID: 2038351533}
+  - component: {fileID: 2038351532}
+  - component: {fileID: 2038351531}
+  m_Layer: 0
+  m_Name: Gremlin 1 (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &2038351531
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038351530}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0071122795, y: 0.049783945}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.14, y: 1.33}
+    newSize: {x: 1.14, y: 1.33}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.95508826, y: 1.230432}
+  m_EdgeRadius: 0
+--- !u!50 &2038351532
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038351530}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &2038351533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038351530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11f69181f89d3134d88691693f60f76f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groundPos: {fileID: 406540481}
+  speed: -6
+  rad: 0.5
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 8
+--- !u!114 &2038351534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038351530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e06432f0d610bd84a8f2e492b123c05b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &2038351535
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038351530}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1dcb6b8537ca86e43b6d63d1d58fb6cb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!212 &2038351536
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038351530}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 4abacb3866ccd0d4eaae1ee69d2624b0, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.14, y: 1.33}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &2038351537
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038351530}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -22.9, y: 3.5, z: 0}
+  m_LocalScale: {x: -4, y: 4, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 406540481}
+  m_Father: {fileID: 0}
+  m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2040259528
 GameObject:
@@ -26485,7 +27148,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2046980176}
   - component: {fileID: 2046980177}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_88
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26821,7 +27484,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2066346825}
   - component: {fileID: 2066346826}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_87
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26976,7 +27639,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2084549340}
   - component: {fileID: 2084549341}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_88
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27060,7 +27723,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2087184948}
   - component: {fileID: 2087184947}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Platforms (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27373,7 +28036,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2109052975}
   - component: {fileID: 2109052976}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset-sliced_89
   m_TagString: Untagged
   m_Icon: {fileID: 0}
